@@ -13,7 +13,9 @@
 	        </div>
 	        <h4>用法</h4>
 	        <p>
-	            <!--html代码:<img src="../images/divImg.png">-->
+	            <pre>
+	            	&lt;div id="pagingCtrl"&gt;&lt;/div&gt;
+	            </pre>
 	        </p>
 	        <pre>       
 	        /**

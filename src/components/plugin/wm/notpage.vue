@@ -13,7 +13,10 @@
 	        </div>
 	        <h4>用法</h4>
 	        <p>
-	            <!--html代码:<img src="../images/pageInc.png">-->
+	            <pre>
+	            	&lt;button class="btn-refresh btn" id="pagingRefresh"&gt;Refresh&lt;/button&gt;
+	            	&lt;div id="pagingCtrlA"&gt;&lt;/div&gt;
+	            </pre>
 	        </p>
 	        <pre>          
 	           /**

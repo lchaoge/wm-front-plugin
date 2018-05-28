@@ -13,7 +13,9 @@
 	        </div>
 	        <h4>用法</h4>
 	        <p>
-	            <!--html代码:<img src="../images/calCtrl.png">-->
+	            <pre>
+	            	&lt;div id="calCtrl"&gt;&lt;/div&gt;
+	            </pre>
 	        </p>
 	        <pre>   
 	        /**

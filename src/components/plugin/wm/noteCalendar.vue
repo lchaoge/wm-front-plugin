@@ -20,7 +20,9 @@
 	        </div>
 	        <h4>用法</h4>
 	        <p>
-	            <!--html代码:<img src="../images/noteCalendar.png">-->
+	            <pre>
+	            	&lt;div id="noteCalCtr"&gt;&lt;/div&gt;
+	            </pre>
 	        </p>
 	        <pre>
 	        /**

@@ -14,7 +14,27 @@
 	        </div>
 	        <h4>用法</h4>
 	        <p>
-	            <!--html代码：<img src="../images/tableS.png">-->
+	            <pre>
+	            	&lt;duv class="table-responsive" id="tableDemo"&gt;
+	            		&lt;table&gt; class="table table-bordered table-striped table-hover"&gt;
+	            			&lt;thead&gt;
+	            				&lt;tr class="rtl-table-header"&gt;
+	            					&lt;th class="mw200"&gt;表头1&lt;/th&gt;
+	            					&lt;th class="mw200"&gt;表头2&lt;/th&gt;
+	            					&lt;th class="mw200"&gt;表头3&lt;/th&gt;
+	            					&lt;th class="mw200"&gt;表头4&lt;/th&gt;
+	            					&lt;th class="mw200"&gt;表头5&lt;/th&gt;
+	            					&lt;th class="mw200"&gt;表头6&lt;/th&gt;
+	            					&lt;th class="mw200"&gt;表头7&lt;/th&gt;
+	            					&lt;th class="mw200"&gt;表头8&lt;/th&gt;
+	            					&lt;th class="mw200"&gt;表头9&lt;/th&gt;
+	            				&lt;/tr&gt;
+	            			&lt;/thead&gt;
+	            			&lt;tbody class="rel-table-body"&gt;
+	            			&lt;/tbody&gt;
+	            		&lt;/table&gt;
+	            	&lt;/div&gt;
+	            </pre>
 	        </p>
 	        <pre>     
 	        /**
