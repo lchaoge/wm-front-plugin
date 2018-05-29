@@ -8,6 +8,7 @@
 // 一级路由
 import Home from './../components/home'
 
+// 插件
 import Plugin from './../components/plugin/index'
 import Calendar from './../components/plugin/wm/calendar'
 import CalendarCtrl from './../components/plugin/wm/calendarCtrl'
@@ -22,6 +23,10 @@ import Select from './../components/plugin/wm/select'
 import Tables from './../components/plugin/wm/tables'
 import Tree from './../components/plugin/wm/tree'
 
+// 项目框架
+import FrameEs6 from './../components/frame/es6/index'
+import FrameElement from './../components/frame/element/index'
+import FrameMintUI from './../components/frame/mintui/index'
 
 export const routes = [
 	{path:'/',name:'homeLink',component:Home,redirect:'/plugin',children:[
@@ -41,6 +46,11 @@ export const routes = [
 		{path:'/plugin/select',name:'selectLink',component:Select},
 		{path:'/plugin/tables',name:'tablesLink',component:Tables},
 		{path:'/plugin/tree',name:'treeLink',component:Tree},
+		
+		// 项目框架
+		{path:'/frame/es6',name:'frameEs6Link',component:FrameEs6},
+		{path:'/frame/element',name:'frameElementLink',component:FrameElement},
+		{path:'/frame/mintui',name:'frameMintUILink',component:FrameMintUI},
 		
 	]},
 	{path:'*',redirect:'/'},

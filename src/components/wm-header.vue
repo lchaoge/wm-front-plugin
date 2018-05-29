@@ -1,20 +1,21 @@
 <template>
 	<el-header>
 		<router-link :to="{name:'homeLink'}" class="cg-login">
-			<img src="../../static/images/LOGO.png" />
+			<img src="../assets/images/LOGO.png" />
 		</router-link>
-		<el-menu :default-active="activeIndex" text-color="#ffffff" background-color="#409EFF" class="cg-menu" mode="horizontal" @select="handleSelect">
+		<el-menu :default-active="activeIndex" text-color="#ffffff" active-text-color="#ffffff" background-color="#42A1FF" class="cg-menu" mode="horizontal" @select="handleSelect">
 		  <el-menu-item index="1"><router-link :to="{name:'pluginLink'}">插件</router-link></el-menu-item>
 		  <el-submenu index="2">
 		    <template slot="title">项目框架</template>
 		    <el-menu-item index="2-1">avalon@1.5-pc</el-menu-item>
 		    <el-menu-item index="2-2">avalon@1.5-mobile</el-menu-item>
-		    <el-menu-item index="2-3">vue@2-pc</el-menu-item>
-		    <el-menu-item index="2-3">vue@2-mobile</el-menu-item>
+		    <el-menu-item index="2-3"><router-link :to="{name:'frameElementLink'}">vue@2-pc</router-link></el-menu-item>
+		    <el-menu-item index="2-4"><router-link :to="{name:'frameMintUILink'}">vue@2-mobile</router-link></el-menu-item>
+		    <el-menu-item index="2-5"><router-link :to="{name:'frameEs6Link'}">es6</router-link></el-menu-item>
 		  </el-submenu>
 		  <el-menu-item index="3">前端工程化</el-menu-item>
 		  <el-menu-item index="4"><a href="https://github.com/lchaoge" target="_blank">github</a></el-menu-item>
-		  <el-menu-item index="5"><router-link :to="{name:''}">关于</router-link></el-menu-item>
+		  <el-menu-item index="5"><router-link :to="{name:'aboutLink'}">关于</router-link></el-menu-item>
 		</el-menu>
 	</el-header>
 </template>
@@ -61,5 +62,20 @@ export default{
 	.cg-menu{
 		display: inline-block;
 		background: #409EFF;
+	}
+	.el-menu-item a{
+		display: block;
+		text-decoration: none;
+		color: #fff;
+	}
+	.el-menu-item a:hover{
+		text-decoration: none;
+		color: #fff;
+	}
+	.el-main{
+		margin: 75px auto 0;
+	}
+	.el-submenu__title i{
+		color: #fff;
 	}
 </style>
